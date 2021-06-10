@@ -1,0 +1,91 @@
+.custom-navbar-background{
+  background-color: rgba(0, 158, 226, 0.5)!important;
+  transition: all .3s;
+}
+
+.custom-navbar-background.scroll{
+  background-color: #fff!important;
+  transition: all .3s;
+  color: #000!important;
+}
+
+.banner-container{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.background-image{
+  width: 100%;
+  height: 100%;
+}
+
+.image-banner{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.layer-background{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.49);
+}
+
+.banner-title-text{
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+.banner-description-text{
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+
+.product-image-container{
+  height: 200px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image-container img{
+  height: 100%;
+}
+
+.product-price{
+  font-size: 14px;
+}
+
+.product-price .old-price{
+  text-decoration: line-through black;
+}
+
+.product-price .new-price span{
+  color: #009ee2;
+  font-weight: 700;
+}
+.product-description{
+  min-height: 50px;
+}
+.slick-prev {
+    left: -35px;
+}
+.slick-prev:before, .slick-next:before{
+  color: #009ee2;
+  font-size: 30px;
+}
+
+
+  /* the slides */
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}

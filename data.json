@@ -1,0 +1,19 @@
+{
+  "foods": [
+    {
+      "product_name" : "Soto",
+      "product_image" : "assets/img/soto.jpg",
+      "product_description" : "Masakan soto dengan bumbu khas",
+      "old_price" : 10000,
+      "new_price" : 8000
+    },
+    {
+      "product_name" : "Soto",
+      "product_image" : "assets/img/soto.jpeg",
+      "product_description" : "Masakan soto dengan bumbu khas",
+      "old_price" : 10000,
+      "new_price" : 8000
+    }
+  ],
+  "drinks": []
+}
